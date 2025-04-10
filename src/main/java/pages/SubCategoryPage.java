@@ -89,7 +89,7 @@ public class SubCategoryPage {
 
 	public SubCategoryPage selectCategoryDropDownSearchPage() {
 		PageUtility pageutility = new PageUtility();
-		pageutility.selectDropdownWithIndex(categoryDropdownSearchPage, 7);
+		pageutility.selectDropdownWithIndex(categoryDropdownSearchPage, 4);
 		return this;
 	}
 

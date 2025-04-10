@@ -10,7 +10,6 @@
       <class name="testscripts.SubCategoryTest">
         <methods>
           <include name="initialiseBrowser"/>
-          <include name="verifyWhetherUserIsAbleToAddANewCategoryOnTheSubCategoryPage"/>
           <include name="driverQuit"/>
           <include name="verifyWhetherUserIsAbleToPerformSearchOnTheSubCategoryPage"/>
         </methods>

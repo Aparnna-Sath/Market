@@ -27,7 +27,7 @@ public class SubCategoryTest extends Base {
 		 
 		subcategory=homepage.clickOnSubcategoryHomeButton();
 		subcategory.clickOnNewButton().selectCategoryDropDown();
-		String subcategoryValue = ExcelUtility.getStringdata(3, 0, "VegetablesSubcategories");
+		String subcategoryValue = ExcelUtility.getStringdata(0, 0, "VegetablesSubcategories");
 		subcategory.enterValueOnSubCategoryField(subcategoryValue).chooseFileUsingRobotClass().clickSaveButton();
 		boolean isCloseButtonOfAlertDisplayed = subcategory.isAlertDisplayedOnAddingANewSubcategory();
 		Assert.assertTrue(isCloseButtonOfAlertDisplayed, "User was not able to add a new subcategory");
